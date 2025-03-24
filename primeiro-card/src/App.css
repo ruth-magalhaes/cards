@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+
+.card {
+  border: 1px solid #2a0f72cc;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+ text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
